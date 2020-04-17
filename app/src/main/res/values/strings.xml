@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FranticSearch</string>
+    <string name="app_name">Frantic Search</string>
     <string name="title_search_main">Card Search</string>
     <string name="search_hint">Search Cards</string>
     <string name="search_title">Search</string>

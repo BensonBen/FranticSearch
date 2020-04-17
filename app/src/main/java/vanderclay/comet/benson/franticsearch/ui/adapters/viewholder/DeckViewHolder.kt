@@ -35,7 +35,7 @@ class DeckViewHolder(binding: ItemDeckRowBinding): RecyclerView.ViewHolder(bindi
         newFragment.deck = mBinding.deck
         val manager = (mBinding.root.context as MainActivity).supportFragmentManager
         val transaction = manager.beginTransaction()
-        transaction.replace(R.id.flContent, newFragment)
+//        transaction.replace(R.id.flContent, newFragment)
         transaction.addToBackStack(null)
         transaction.commit()
     }

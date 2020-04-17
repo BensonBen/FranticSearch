@@ -43,7 +43,7 @@ class CardViewHolder(binding: ItemCardRowBinding): RecyclerView.ViewHolder(bindi
         newFragment.card = mBinding.card
         val manager = (mBinding.root.context as MainActivity).supportFragmentManager
         val transaction = manager.beginTransaction()
-        transaction.replace(R.id.flContent, newFragment)
+//        transaction.replace(R.id.flContent, newFragment)
         transaction.addToBackStack(null)
         transaction.commit()
     }
